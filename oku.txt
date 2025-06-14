@@ -1,0 +1,11 @@
+Bu hafta, gazetelerin arşiv sayfalarından haber linklerini çekmek amacıyla BeautifulSoup kütüphanesi kullanılarak web scraping işlemi gerçekleştirildi.
+
+Çalışma kapsamında, Millî Gazete'nin internet sitesindeki haber arşivinde gezinildi. Belirlenen tarih aralığı içinde, her arşiv sayfası programatik olarak ziyaret edildi ve sayfada yer alan haber başlıklarının detay sayfalarına ait linkler tespit edildi.
+
+Scraping işlemi sırasında:
+- HTTP istekleri için requests kütüphanesi kullanıldı.
+- Sayfa içeriği BeautifulSoup ile parse edildi.
+- Her haberin detay sayfasına yönlendiren `<a>` etiketlerinden `href` öznitelikleri çekildi.
+- Tüm linkler bir listeye eklenip `log.txt` dosyasına yazdırıldı.
+
+Bu çalışma ile veri toplama sürecinin ilk aşaması başarıyla tamamlandı. Elde edilen ham bağlantılar, sonraki haftalarda içerik analizi ve veri temizleme işlemleri için kullanılacaktır.
