@@ -1,0 +1,19 @@
+LOG - Hafta 5
+
+Amaç:
+Millî Gazete'nin arşiv sayfalarından haber linklerini çekmek.
+
+Kullanılan Araçlar:
+- requests
+- BeautifulSoup
+
+İşlem Adımları:
+- Arşiv sayfaları tarandı.
+- Her haberin detay linki `<a href="">` etiketi üzerinden alındı.
+- Linkler listeye eklendi ve log.txt'ye yazdırıldı.
+
+Sonuç:
+Toplam X adet haber linki çıkarıldı.
+Veri toplamanın ilk aşaması başarıyla tamamlandı.
+
+
